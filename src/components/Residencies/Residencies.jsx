@@ -10,12 +10,15 @@ export const Residencies = () => {
     return (
         <section className="r-wrapper">
             <div className="paddings innerWidth r-container">
+                
                 <div className="r-head flexColStart">
                     <span className="orangeText">Best Choices</span>
                     <span className="primaryText">Popular Residences</span>
+                    
                 </div>
 
-                <Swiper {...sliderSettings}>
+                <Swiper {...sliderSettings} >
+                    <SliderButtons />
                     {
                         data.map((card, i) => (
                             <SwiperSlide key={i}>
@@ -34,8 +37,20 @@ export const Residencies = () => {
                         ))
                     }
                 </Swiper>
-
+                
             </div>
+            
         </section>
+    )
+}
+
+const SliderButtons = () => {
+    const swiper = useSwiper();
+
+    return (
+        <div className="flexCenter r-buttons">
+            <button onClick={() => swiper.slidePrev()}>&lt;</button>
+            <button onClick={() => swiper.slideNext()}>&gt;</button>
+        </div>
     )
 }
