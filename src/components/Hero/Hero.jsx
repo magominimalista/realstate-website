@@ -21,8 +21,8 @@ export const Hero = () => {
                     </div>
 
                     <div className="flexColStart hero-des">
-                        <span>Find a variety of properties that suit you very easily</span>
-                        <span>Forget all difficuties in finding residence for you</span>
+                        <span className='secondaryText'>Find a variety of properties that suit you very easily</span>
+                        <span className='secondaryText'>Forget all difficuties in finding residence for you</span>
                     </div>
 
                     <div className="flexCenter search-bar">
