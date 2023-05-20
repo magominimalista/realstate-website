@@ -32,9 +32,9 @@ export const Hero = () => {
                     </div>
 
                     <div className="flexCenter stats">
-                        <div className="flexColStart stat">
+                        <div className="flexColCenter stat">
                             <span>
-                                <CountUp start={88000} end={90000} duraction={4} />
+                                <CountUp start={8800} end={9000} duraction={4} />
                                 <span>+</span>
                             </span>
                             <span className="secondaryText">
@@ -42,7 +42,7 @@ export const Hero = () => {
                             </span>
                         </div>
 
-                        <div className="flexColStart stat">
+                        <div className="flexColCenter stat">
                             <span>
                                 <CountUp start={1950} end={2000} duraction={4} />
                                 <span>+</span>
@@ -52,7 +52,7 @@ export const Hero = () => {
                             </span>
                         </div>
 
-                        <div className="flexColStart stat">
+                        <div className="flexColCenter stat">
                             <span>
                                 <CountUp end={28} />
                                 <span>+</span>
