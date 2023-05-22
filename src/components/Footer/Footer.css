@@ -11,3 +11,13 @@
     margin-top: 1.5rem;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .f-container {
+        justify-content: center;
+    }
+
+    .f-container > div {
+        align-items: center !important;
+    }
+}
